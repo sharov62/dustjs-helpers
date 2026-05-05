@@ -38,11 +38,14 @@
     "dust.js",
     "linkedin"
   ],
+  "dependencies": {
+    "dustjs-linkedin": "file:../dustjs-linkedin"
+  },
   "peerDependencies": {
-    "dustjs-linkedin": "2.7 - 3.0"
+    "dustjs-linkedin": ">=2.7.0 <4.0.0"
   },
   "devDependencies": {
-    "dustjs-linkedin": "2.7 - 3.0",
+    "dustjs-linkedin": ">=2.7.0 <4.0.0",
     "grunt": "~0.4.2",
     "grunt-cli": "~0.1.13",
     "grunt-contrib-jshint": "~0.11.1",
